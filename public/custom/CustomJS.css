@@ -1,0 +1,59 @@
+/*********** TABLE IN CLASS MANAGEMENT-TABLE ***********/
+.content {
+    overflow-x:hidden;
+    overflow-y:scroll;
+    height: 807px;
+}
+
+.tab-selected {
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0.5px rgb(50,144,119);
+    background-color: white;
+}
+.tab-selected * {
+    color: rgb(50,144,119) !important;
+    font-size: 17px;
+}
+
+.management-table {
+    /* border: #color; */
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgb(50,144,119);
+}
+.management-table td,th {
+    border: 1px solid rgb(50,144,119);
+    text-align: center;
+}
+
+.management-table td {
+    column-width: auto;
+}
+
+.hidden {
+    display: none !important;
+}
+.red-alert {
+    background-color: red;
+    color: white;
+}
+
+#search-bar {
+    width: 60%;
+    height: 25px;
+    margin: 5px 5px 0 5px;
+    border: 1px solid rgb(50,144,119);
+    border-radius: 10px;
+    float: right;
+}
+.button-table-bar {
+    height: 25px;
+    margin: 0 auto;
+    border: 1px solid rgb(50,144,119);
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(50,144,119);
+    color: white;
+    float: right;
+}

@@ -1,0 +1,40 @@
+.singin_container{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(50,144,119);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+.singin_heading {
+    text-align: center;
+    background-color: rgb(120,188,105);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 30px 50px 15px;
+
+}
+.singin{
+    
+}
+.singin__form{
+    padding: 20px;
+}
+
+.singin__form--getpassword{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.forgot_pass a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+
+}
+
+.singin--btn.btn{
+    background-color: rgb(120,188,105);
+    color: rgb(255, 255, 255);
+}
